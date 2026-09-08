@@ -44,7 +44,7 @@ if userChoice == "a":
     Your mind races, and you can either:
     
     OPTION A:
-        Tell the truth that you are a time traveller from hundreds of millions of years in the future. 
+        Tell the truth that you are a time traveller from billions of years in the future. 
     OPTION B:
         Lie and say you do not know why you're not within databases, and convince the clanker you're a citizen. 
     
@@ -57,6 +57,20 @@ if userChoice == "a":
     if userChoice == "a":
         story = """
         The robot blares again, and you flinch, expecting guns, lasers, or for you to be captured. Instead, 
-        it says, "TRUTH DETECTED. TRANSPORTING TO SUPREME LEADER PETER XXI.
+        it says, "TRUTH DETECTED. TRANSPORTING TO SUPREME LEADER PETER XXI. MAXIMUM IMPORTANCE LEVEL." 
+        It flashes a laser at you, and suddenly you are standing before a throne, with what looks like the pope 
+        sitting on it. 
+        "How did you get here?" he (who you assume is Supreme Leader Peter XXI) asks. "Your DNA was analyzed
+        by our scientists, and it looks like you've gone through approximately one billion years of evolution." 
+        "They're right," you reply. "I'm from one billion years in the future."
+        "How?" Peter demands. "We've removed diseases and poverty, explored throughout our entire galaxy, yet 
+        the one thing that is impossible is time travel. Your society must be unbeliveably advanced!" 
+        "Well, although we have time travel, we still have diseases and haven't even escaped our solar system." 
+        you reply. 
+        "Interesting... We're going to get our scientists to study y-" Peter starts, before a serious-looking 
+        woman bursts through the door. 
+        "Taravangia has threatened nuclear war! They're demanding that our nation of Kholinar cedes to their 
+        demands or nuclear war will break out! What do we do?" she exclaims. 
+        "This is urgent, and we don't have time to escort you out," Peter says to you, "so 
         """
         print(story)
