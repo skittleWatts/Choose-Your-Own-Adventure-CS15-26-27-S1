@@ -78,7 +78,8 @@ if userChoice == "a":
             Tell Peter to cede to the demands, preventing nuclear war, with untold future ramifications that 
             could affect your very existence.
         OPTION B:
-            Tell Peter to start the war, with untold future ramifications that could affect your very existence.
+            Tell Peter to start the war, with untold future ramifications that could affect your very existence. 
+            
         Make your selection.
         """
         print(story)
@@ -108,4 +109,43 @@ if userChoice == "a":
             
             Peter escorts you back to the place of your arrival to this time, thanking you for your help. 
             "No matter what the scientists say, I'm glad you came to give your advice. Even if this destroys 
-            our society, 
+            my society, it's a worthy sacrifice for yours." 
+            
+            You two have a tear-filled goodbye, and you find yourself back in the time machine.
+            "How was it?" one of the scientists ask.
+            
+            "Don't even get me started," you reply. 
+            
+            THE END.
+            """
+            print(story)
+    else:
+        story = """
+        The drone flares with an angry red light, screaming, "LIE DETECTED! LIE DETECTED! TRANSPORTING TO 
+        PRISON FOR FELONY A14-3: UNTRACKED IDENTITY."
+        
+        A laser flashes at you, and you flinch, expecting total eradication, but instead you suddenly find 
+        yourself behind bars in a stereotypical concrete prison, albeit with higher tech utilities such as a 
+        bathroom and what seems to be a hologram TV, only broadcasting content meant to prepare for reentry 
+        into society. 
+        
+        You panic, realizing you have to get back to your time to report your findings. You narrow down your 
+        escape options to two choices:
+        
+        OPTION A:
+            Try to convince the warden of the truth in order for him to understand the importance of you 
+            escaping.
+        OPTION B: 
+            Bide your time, slowly digging a hole in the concrete with your spoon until you can escape and make 
+            a run back to your arrival area.
+            
+        Make your selection.
+        """
+        print(story)
+
+        userChoice = input().lower()
+
+        if userChoice == "a":
+            story = """
+            ;)
+            """
