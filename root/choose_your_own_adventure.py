@@ -71,6 +71,41 @@ if userChoice == "a":
         woman bursts through the door. 
         "Taravangia has threatened nuclear war! They're demanding that our nation of Kholinar cedes to their 
         demands or nuclear war will break out! What do we do?" she exclaims. 
-        "This is urgent, and we don't have time to escort you out," Peter says to you, "so 
+        "This is urgent, and we don't have time to escort you out," Peter says to you. "I'm treating this as a 
+        sign from God, that you are to help me. What do we do? Do we:
+        
+        OPTION A: 
+            Tell Peter to cede to the demands, preventing nuclear war, with untold future ramifications that 
+            could affect your very existence.
+        OPTION B:
+            Tell Peter to start the war, with untold future ramifications that could affect your very existence.
+        Make your selection.
         """
         print(story)
+
+        userChoice = input().lower()
+
+        if userChoice == "a":
+            story = """
+            With Supreme Leader Peter XXI ceding to Taravangia's demands, nuclear war is successfully prevented. 
+            
+            Unfortunately, when you and Peter are taking dinner together, alarms go off, and a medical officer 
+            rushes into the room, shouting "There is a fading temporal signature in this room, we don't know 
+            what to do!" 
+            
+            Now that she mentions it, you do feel a bit queasy, and when you look down at your arm, it seems 
+            almost transluecent or intangible. You realize the consequences of this made sure that you were never 
+            born, and now you do not exist. You make peace with your decision of sacrificing your timeline for 
+            theirs, and you smile as it all fades to black. 
+            
+            THE END.
+            """
+            print(story)
+        else:
+            story = """
+            Once nuclear war starts, the scientists realize the ramifications. They predict that within the next 
+            two decades, there will be no trace of their society left. 
+            
+            Peter escorts you back to the place of your arrival to this time, thanking you for your help. 
+            "No matter what the scientists say, I'm glad you came to give your advice. Even if this destroys 
+            our society, 
