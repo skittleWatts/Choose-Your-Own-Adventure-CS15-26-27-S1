@@ -147,5 +147,101 @@ if userChoice == "a":
 
         if userChoice == "a":
             story = """
-            ;)
+            When the warden understands how badly you want to escape, he dials up the security on you. 
+            
+            Years pass, and with the increased security, you can't escape.
+            
+            You die of old age. 
+            
+            THE END.
             """
+            print(story)
+        else:
+            story = """
+            Slowly but surely, you dig through the wall with your spoon, and after 20 long, grueling years, you 
+            break free. 
+            
+            You make a mad dash for your teleportation area, and once you reach it, you find yourself back in 
+            the time machine, with your body miraculously the same age as when you left. 
+            
+            For the scientists, only 3 seconds had passed, but for you, an entire lifetime.
+            
+            "How was it?" one of the scientists ask.
+            
+            "Don't even get me started," you reply. 
+            
+            THE END.
+            """
+            print(story)
+else:
+    story = """
+    You enter the machine, and a loud voice announces, "TRAVELLING IN 3... 2... 1."
+    
+    You are overwhelmed by pure light, and you feel a jolt as your feet touch firm ground. 
+    
+    Confusion fills your mind, as what you see makes no sense. You seem to be on top of a mountain or large 
+    hill, and all around you is either barren ground or light foliage and fields. 
+    
+    Behind you in the distance, you hear what seems to be music and celebration, but just down the hill you see 
+    a person dressed in simple clothes, sitting by a campfire. 
+    
+    Do you: 
+    
+    OPTION A:
+        Make your way towards the celebration.
+    OPTION B:
+        Go down the hill towards the lone traveller. 
+        
+    Make your choice.
+    """
+    print(story)
+
+    userChoice = input().lower()
+
+    if userChoice == "a":
+        story = """ 
+        The music gets louder as you get closer, and you begin to hear unashamed hoots and hollers. 
+        
+        When you arrive, you are struck by how barbaric the celebrations are. All the people seem to be wearing 
+        animal skins, and they jump up and down around a large bonfire. 
+        
+        One member notices you and greets you. "How are you doing stranger?"
+        "I'm well, how are you?" you reply.
+        "Enjoying this celebration! Would you care to join in?" 
+        "Sure, but first, what's going on? Where are the cities, the technology?" 
+        "Do not worry about troubles such as that, stranger. Here, have a drink!" he says as he grabs a wooden  
+        mug from a nearby table. You taste it, and it tastes like apple juice, just off somehow. 
+        
+        You continue to drink as you try to find the leader to get some answers, but as you are approaching what 
+        appears to be an elder or leader, you get lightheaded, and suddenly, you find yourself in the inky 
+        blackness of sleep. 
+        
+        When you wake up, you are dressed in garb similar to the others, mere animal skin, and you are in a 
+        wooden cage. Your supplies that you took have been taken, and you are horrified at your situation. You 
+        brainstorm two solutions, and can either: 
+        
+        OPTION A: 
+            Convince the tribe members that you can trade them information and stories of the past for freedom. 
+        OPTION B:
+            Bide your time and wait for an opportunity to escape.
+        """
+        print(story)
+
+        userChoice = input().lower()
+
+        if userChoice == "a":
+            story = """
+            The guard laughs at you. 
+            
+            You spend the rest of your short life as a slave to their clan, and one day, when who you recognize 
+            as the lone traveller comes to rescue all the slaves, you are caught in the crossfire and tragically 
+            die. 
+            
+            THE END.
+            """
+            print(story)
+        else:
+            story = """
+            
+            """
+
