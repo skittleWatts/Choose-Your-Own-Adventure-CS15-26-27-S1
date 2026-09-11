@@ -99,7 +99,7 @@ if userChoice == "a":
             born, and now you do not exist. You make peace with your decision of sacrificing your timeline for 
             theirs, and you smile as it all fades to black. 
             
-            THE END.
+            THE END.    
             """
             print(story)
         else:
@@ -114,7 +114,7 @@ if userChoice == "a":
             You two have a tear-filled goodbye, and you find yourself back in the time machine.
             "How was it?" one of the scientists ask.
             
-            "Don't even get me started," you reply. 
+            "You might want to sit down for this," you reply.
             
             THE END.
             """
@@ -183,14 +183,14 @@ else:
     hill, and all around you is either barren ground or light foliage and fields. 
     
     Behind you in the distance, you hear what seems to be music and celebration, but just down the hill you see 
-    a person dressed in simple clothes, sitting by a campfire. 
+    a person dressed in simple clothes and a cowboy hat, sitting by a campfire. 
     
     Do you: 
     
     OPTION A:
         Make your way towards the celebration.
     OPTION B:
-        Go down the hill towards the lone traveller. 
+        Go down the hill towards the lone cowboy. 
         
     Make your choice.
     """
@@ -242,6 +242,86 @@ else:
             print(story)
         else:
             story = """
+            When the guard isn't looking, you grab the keys off his belt. In the dead of night, you open the cage 
+            and make a run for it. 
             
+            The noise of your footsteps wakes a few tribe member up, and suddenly they are all awake, chasing you 
+            and the other slaves who were in your cell. You just barely make it to the arrival area, and feel a 
+            moment of pity for the slaves who don't have an escape method. 
+            
+            You find yourself back in the time machine, with your body miraculously the same age as when you left. 
+            
+            For the scientists, only 3 seconds had passed, but you had gone through the adventure of a lifetime.
+            
+            "How was it?" one of the scientists ask.
+            
+            "You might want to sit down for this," you reply.
+            
+            THE END.
             """
+            print(story)
+    else:
+        story = """
+        As you approach, the cowboy doesn't seem to react. When you come to stand awkwardly next to him, a low, 
+        gravelly voice drawls, "Grab a seat, stranger." 
+        
+        You timidly have a seat opposite to him, trying to gauge how dangerous he is. You begin to speak, but he 
+        cuts you off.
+        
+        "We rarely see your kind 'round these parts. You bumbling city folk. Ever since the wars targeted the major 
+        cities, there seems to be none of ya'll left." 
+        
+        You begin to tell him who you are and what time you're from, but again, he cuts you off. "I ain't got no 
+        time for your bullcrap. I have a proposition for you. You can either make yourself useful and help me, or 
+        you can be left out here in the desert, where I doubt you'll last long." 
+        
+        "What is it?" you ask.
+        
+        "There's slaves in some kind of barbaric tribe just up the hill, and God created me to remove injustice 
+        from this earth. Help me, or leave me alone."
+        Do you: 
+        
+        OPTION A:
+            Help the cowboy with his mission, which is potentially dangerous. 
+        OPTION B:
+            Decline and look for a safer alternative to explore this timeline.
+        
+        Make our choice.
+        """
+        print(story)
+
+        userChoice = input().lower()
+
+        if userChoice == "a":
+            story = """
+            The cowboy thanks you, and you both go to sleep. In the morning, the cowboy outlines his plan, and you spend 
+            the next couple of months prepping. 
+            
+            When it's time, you storm the camp and free all the slaves, with you and the cowboy suffering no injuries. 
+            
+            He thanks you and gives you a half-smile, which is the most emotion you've seen from him in months. One of 
+            the women you freed runs up to the cowboy and throws her arms around his neck. "I always knew you'd come!" 
+            
+            You feel pride in what you've done, and make your way back to the arrival area. You find yourself back in 
+            the time machine, and one of the scientists asks, "How was it?"
+            
+            "You might want to sit down for this," you reply.
+            
+            THE END.
+            """
+            print(story)
+        else:
+            story = """
+            A soft purring sound drags you out of your blissful dreaming, and you swat at the direction of the noise, 
+            thinking you're back at home with your cats. When you realize where you are, you bolt upright and find 13 
+            mutated looking cougars staring at you. 
+            
+            You try your best to fight them.
+            
+            Let's just say you've never been a good fighter.
+
+            THE END.
+            """
+            print(story)
+
 
